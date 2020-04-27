@@ -1,0 +1,17 @@
+{
+  "name": "ping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "main": "rm main.js; tsc main.ts; node main.js"
+  },
+  "dependencies": {
+    "@types/node": "12.12.37",
+    "@types/puppeteer": "^2.0.1",
+    "crypto": "^1.0.1",
+    "lodash": "^4.17.15",
+    "puppeteer": "^3.0.1",
+    "typescript": "^3.8.3"
+  }
+}
